@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAlmacenista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Almacenista ID="1" FName="Admin" LName="Admin">
+    <Password>Admin</Password>
+    <YearOfBirth>2005</YearOfBirth>
+    <Admin>true</Admin>
+  </Almacenista>
+  <Almacenista ID="2" FName="Rodrigo" LName="Romero">
+    <Password>1234</Password>
+    <YearOfBirth>2005</YearOfBirth>
+    <Admin>false</Admin>
+  </Almacenista>
+  <Almacenista ID="3" FName="Diego" LName="Corvera">
+    <Password>12345</Password>
+    <YearOfBirth>2020</YearOfBirth>
+    <Admin>false</Admin>
+  </Almacenista>
+</ArrayOfAlmacenista>
