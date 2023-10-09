@@ -10,9 +10,14 @@
     <YearOfBirth>2005</YearOfBirth>
     <Admin>false</Admin>
   </Almacenista>
-  <Almacenista ID="3" FName="Diego" LName="Corvera">
-    <Password>12345</Password>
-    <YearOfBirth>2020</YearOfBirth>
+  <Almacenista ID="3" FName="Albert" LName="Wachi">
+    <Password>123</Password>
+    <YearOfBirth>2004</YearOfBirth>
+    <Admin>false</Admin>
+  </Almacenista>
+  <Almacenista ID="4" FName="Diego" LName="Corvera">
+    <Password>1234</Password>
+    <YearOfBirth>2003</YearOfBirth>
     <Admin>false</Admin>
   </Almacenista>
 </ArrayOfAlmacenista>

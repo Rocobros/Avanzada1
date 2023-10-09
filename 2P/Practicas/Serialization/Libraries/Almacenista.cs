@@ -1,4 +1,4 @@
-using System.ComponentModel;
+using static System.Console;
 using System.Xml.Serialization;
 
 namespace Libraries;
@@ -8,28 +8,16 @@ public class Almacenista
     public Almacenista(){
 
     }
-
-    public Almacenista(string first, string last, string pass, ushort year, bool admin){
-        this.ID = CurrentID;
-        this.FirstName = first;
-        this.LastName = last;
-        this.Password = pass;
-        this.YearOfBirth = year;
-        this.Admin = admin;
-        CurrentID++;
-    }
-    public Almacenista(string first, string last, string pass, ushort year)
+    public Almacenista(int id, string first, string last, string pass, ushort year)
     {
-        this.ID = CurrentID;
+        this.ID = id;
         this.FirstName = first;
         this.LastName = last;
         this.Password = pass;
         this.YearOfBirth = year;
         this.Admin = false;
-        CurrentID++;
     }
     
-    static int CurrentID = 1;
     [XmlAttribute("ID")]
     public int ID { get; set; }
     [XmlAttribute("FName")]
@@ -52,4 +40,28 @@ public class Almacenista
         return 0;
     }
     
+    public static Almacenista Agregar(List<Almacenista> lista)
+    {
+
+        WriteLine("Nombre:");
+        string? first = ReadLine();
+        WriteLine("Apellido:");
+        string? last = ReadLine();
+        WriteLine("Contrasena:");
+        string? contra = ReadLine();
+        WriteLine("Ano de nacimiento:");
+        ushort year = Convert.ToUInt16(ReadLine());
+
+        int maxId = 0;
+        foreach (Almacenista almacenista in lista)
+        {
+            if (almacenista.ID > maxId)
+            {
+                maxId = almacenista.ID;
+            }
+        }
+
+        Almacenista nuevo = new(maxId+1, first, last, contra, year);
+        return nuevo;
+    }
 }
