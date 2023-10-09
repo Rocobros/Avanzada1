@@ -1,5 +1,6 @@
 using static System.Console;
 using System.Xml.Serialization;
+using System.Diagnostics.Contracts;
 
 namespace Libraries;
 
@@ -7,6 +8,15 @@ public class Almacenista
 {
     public Almacenista(){
 
+    }
+    public Almacenista(int id, string first, string last, string pass, ushort year, bool admin)
+    {
+        this.ID = id;
+        this.FirstName = first;
+        this.LastName = last;
+        this.Password = pass;
+        this.YearOfBirth = year;
+        this.Admin = admin;
     }
     public Almacenista(int id, string first, string last, string pass, ushort year)
     {
@@ -32,7 +42,7 @@ public class Almacenista
     {
         foreach(Almacenista user in lista)
         {
-            if(user.ID==Convert.ToInt32(id) && user.Password.Equals(pass))
+            if(user.ID==Convert.ToInt32(id) && EncriptionMD5.Decrypt(user.Password).Equals(pass))
             {
                 return user.ID;
             }
@@ -48,7 +58,7 @@ public class Almacenista
         WriteLine("Apellido:");
         string? last = ReadLine();
         WriteLine("Contrasena:");
-        string? contra = ReadLine();
+        string? pass = ReadLine();
         WriteLine("Ano de nacimiento:");
         ushort year = Convert.ToUInt16(ReadLine());
 
@@ -61,7 +71,11 @@ public class Almacenista
             }
         }
 
-        Almacenista nuevo = new(maxId+1, first, last, contra, year);
+        string firstEncripted = EncriptionMD5.Encrypt(first);
+        string lastEncripted = EncriptionMD5.Encrypt(last);
+        string passEncripted = EncriptionMD5.Encrypt(pass);
+
+        Almacenista nuevo = new(maxId+1, firstEncripted, lastEncripted, passEncripted, year);
         return nuevo;
     }
 

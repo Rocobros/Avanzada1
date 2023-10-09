@@ -9,6 +9,8 @@ List<Almacenista> almacenistas = new();
 equipos = DeserializeEquipos(equipos);
 almacenistas = DeserializeAlmacenistas(almacenistas);
 
+almacenistas.Add(Almacenista.Agregar(almacenistas));
+
 int op;
 
 //First menu
