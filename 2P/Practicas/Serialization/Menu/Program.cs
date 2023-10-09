@@ -80,6 +80,7 @@ do
                             {
                                 if(equipo.ID == id)
                                 {
+                                    WriteLine("Ingresa el modelo:");
                                     string? m = ReadLine();
                                     WriteLine("Ingresa la descripcion:");
                                     string? d = ReadLine();
@@ -113,8 +114,16 @@ do
                             break;
                         //Cambiar contra
                         case 4:
-                            almacenistas = Almacenista.CambiarContra(almacenistas);
+                            WriteLine("Cambiar contrasena:");
+                            WriteLine();
+                            WriteLine("Ingresa la nueva contrasena:");
+                            string? nueva = ReadLine();
+
+                            almacenistas = Almacenista.CambiarContra(almacenistas, currentId, nueva);
                             SerializeAlmacenistas(almacenistas);
+                            
+
+                            
                             break;
                         //Generar reporte
                         case 5:
@@ -146,8 +155,16 @@ do
         //Creating new user
         case 2:
             Clear();
-            almacenistas.Add(Almacenista.Agregar(almacenistas));
+            WriteLine("Nombre:");
+            string? first = ReadLine();
+            WriteLine("Apellido:");
+            string? last = ReadLine();
+            WriteLine("Contrasena:");
+            string? contra = ReadLine();
+            WriteLine("Ano de nacimiento:");
+            ushort ano = Convert.ToUInt16(ReadLine());
 
+            almacenistas.Add(Almacenista.Agregar(almacenistas, first, last, contra, ano));
             SerializeAlmacenistas(almacenistas);
 
             break;

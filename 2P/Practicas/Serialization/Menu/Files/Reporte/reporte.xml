@@ -1,5 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ArrayOfEquipo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Equipo ID="3">
+    <Model>2</Model>
+    <Description>Algo</Description>
+    <Year>1999</Year>
+    <Brand>samsug</Brand>
+    <Category>analogico</Category>
+    <InitalPrice>100</InitalPrice>
+    <CurrentPrice>100</CurrentPrice>
+  </Equipo>
+  <Equipo ID="4">
+    <Model>A123</Model>
+    <Description>Alga</Description>
+    <Year>2000</Year>
+    <Brand>HU</Brand>
+    <Category>Analogico</Category>
+    <InitalPrice>200</InitalPrice>
+    <CurrentPrice>250</CurrentPrice>
+  </Equipo>
   <Equipo ID="1">
     <Model>A34</Model>
     <Description>Fuente de poder variable</Description>
@@ -17,14 +35,5 @@
     <Category>Digital</Category>
     <InitalPrice>19000</InitalPrice>
     <CurrentPrice>17500</CurrentPrice>
-  </Equipo>
-  <Equipo ID="3">
-    <Model>2</Model>
-    <Description>Algo</Description>
-    <Year>1999</Year>
-    <Brand>samsug</Brand>
-    <Category>analogico</Category>
-    <InitalPrice>100</InitalPrice>
-    <CurrentPrice>100</CurrentPrice>
   </Equipo>
 </ArrayOfEquipo>

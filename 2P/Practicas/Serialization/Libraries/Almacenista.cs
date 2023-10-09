@@ -50,18 +50,8 @@ public class Almacenista
         return 0;
     }
     
-    public static Almacenista Agregar(List<Almacenista> lista)
+    public static Almacenista Agregar(List<Almacenista> lista, string first, string last, string pass, ushort year)
     {
-
-        WriteLine("Nombre:");
-        string? first = ReadLine();
-        WriteLine("Apellido:");
-        string? last = ReadLine();
-        WriteLine("Contrasena:");
-        string? pass = ReadLine();
-        WriteLine("Ano de nacimiento:");
-        ushort year = Convert.ToUInt16(ReadLine());
-
         int maxId = 0;
         foreach (Almacenista almacenista in lista)
         {
@@ -79,21 +69,23 @@ public class Almacenista
         return nuevo;
     }
 
-    public static List<Almacenista> CambiarContra(List<Almacenista> lista)
+    public static Almacenista Agregar(int id, string first, string last, string pass, ushort year)
     {
-        WriteLine("Cambiar contrasena:");
-        WriteLine();
-        WriteLine("Ingresa el ID del almacenista:");
-        int id = Convert.ToInt32(ReadLine());
+        string firstEncripted = EncriptionMD5.Encrypt(first);
+        string lastEncripted = EncriptionMD5.Encrypt(last);
+        string passEncripted = EncriptionMD5.Encrypt(pass);
 
+        Almacenista nuevo = new(id, firstEncripted, lastEncripted, passEncripted, year);
+        return nuevo;
+    }
+
+    public static List<Almacenista> CambiarContra(List<Almacenista> lista, int id, string pass)
+    {
         foreach (Almacenista almacenista in lista)
         {
             if(almacenista.ID == id)
             {
-                WriteLine();
-                WriteLine("Ingresa la nueva contrasena:");
-                string? nueva = ReadLine();
-                almacenista.Password = nueva;
+                almacenista.Password = EncriptionMD5.Encrypt(pass);
             }
         }
         return lista;

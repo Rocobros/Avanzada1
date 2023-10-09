@@ -44,13 +44,25 @@ public class Equipo
         Equipo nuevo = new(maxId+1, mod, des, year, mar, cat, ini, act);
         return nuevo;
     }
+    public static Equipo Agregar(int id, string mod, string des, ushort year, string mar, string cat, decimal ini, decimal act)
+    {
+        
+        Equipo nuevo = new(id, mod, des, year, mar, cat, ini, act);
+        return nuevo;
+    }
 
     public static List<Equipo> Modificar(List<Equipo> lista, int id, string mod, string des, ushort year, string mar, string cat, decimal ini, decimal act)
     {
         foreach(Equipo equipo in lista){
             if(equipo.ID == id)
             {
-                
+                equipo.Model = mod;
+                equipo.Description = des;
+                equipo.Year = year;
+                equipo.Brand = mar;
+                equipo.Category = cat;
+                equipo.InitalPrice = ini;
+                equipo.CurrentPrice = act;
             }
         }
         return lista;
