@@ -30,26 +30,8 @@ public class Equipo
     public decimal InitalPrice {get; set;}
     public decimal CurrentPrice {get; set;}
 
-    public static Equipo Agregar(List<Equipo> lista)
+    public static Equipo Agregar(List<Equipo> lista, string mod, string des, ushort year, string mar, string cat, decimal ini, decimal act)
     {
-        WriteLine("Agregar nuevo equipo");
-        WriteLine();
-        WriteLine("Ingresa el modelo:");
-        string? modelo = ReadLine();
-        WriteLine("Ingresa la descripcion:");
-        string? desc = ReadLine();
-        WriteLine("Ingresa el ano de fabricacion:");
-        ushort year = Convert.ToUInt16(ReadLine());
-        WriteLine("Ingresa la marca:");
-        string? marca = ReadLine();
-        WriteLine("Ingresa si es Digital o Analogico:");
-        string? cat = ReadLine();
-        WriteLine("Ingresa su precio inicial:");
-        decimal inicial = Convert.ToDecimal(ReadLine());
-        WriteLine("Ingresa su precio actual:");
-        decimal actual = Convert.ToDecimal(ReadLine());
-
-
         int maxId = 0;
         foreach(Equipo equipo in lista)
         {
@@ -59,45 +41,23 @@ public class Equipo
             }
         }
 
-        Equipo nuevo = new(maxId+1, modelo, desc, year, marca, cat, inicial, actual);
+        Equipo nuevo = new(maxId+1, mod, des, year, mar, cat, ini, act);
         return nuevo;
     }
 
-    public static List<Equipo> Modificar(List<Equipo> lista)
+    public static List<Equipo> Modificar(List<Equipo> lista, int id, string mod, string des, ushort year, string mar, string cat, decimal ini, decimal act)
     {
-        WriteLine("Modificar equipo");
-        WriteLine();
-        WriteLine("Ingresa el ID del equipo a modificar:");
-        int id = Convert.ToInt32(ReadLine());
-
         foreach(Equipo equipo in lista){
             if(equipo.ID == id)
             {
-                WriteLine("Ingresa el modelo:");
-                equipo.Model = ReadLine();
-                WriteLine("Ingresa la descripcion:");
-                equipo.Description = ReadLine();
-                WriteLine("Ingresa el ano de fabricacion:");
-                equipo.Year = Convert.ToUInt16(ReadLine());
-                WriteLine("Ingresa la marca:");
-                equipo.Brand = ReadLine();
-                WriteLine("Ingresa si es Digital o Analogico:");
-                equipo.Category = ReadLine();
-                WriteLine("Ingresa su precio inicial:");
-                equipo.InitalPrice = Convert.ToDecimal(ReadLine());
-                WriteLine("Ingresa su precio actual:");
-                equipo.CurrentPrice = Convert.ToDecimal(ReadLine());
+                
             }
         }
         return lista;
     }
 
-    public static Equipo Eliminar(List<Equipo> lista)
+    public static Equipo Eliminar(List<Equipo> lista, int id)
     {
-        WriteLine("Eliminar equipo");
-        WriteLine();
-        WriteLine("Ingresa la ID del equipo a eliminar:");
-        int id = Convert.ToInt32(ReadLine());
         Equipo nuevo = new();
         foreach(Equipo equipo in lista)
         {

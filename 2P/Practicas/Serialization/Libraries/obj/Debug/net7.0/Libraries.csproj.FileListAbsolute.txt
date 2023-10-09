@@ -20,3 +20,4 @@ C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Libraries\
 C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\refint\Libraries.dll
 C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\Libraries.pdb
 C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\ref\Libraries.dll
+c:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\Libraries.csproj.AssemblyReference.cache

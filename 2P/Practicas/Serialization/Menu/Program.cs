@@ -27,11 +27,11 @@ do
         case 1:
             Clear();
             WriteLine("Ingresa el ID:");
-            string? id = ReadLine();
+            string? usuario = ReadLine();
             WriteLine("Ingresa la contrasena:");
             string? pass = ReadLine();
 
-            int currentId = Almacenista.Login(id, pass, almacenistas);
+            int currentId = Almacenista.Login(usuario, pass, almacenistas);
 
             if (currentId != 0)
             {
@@ -48,19 +48,66 @@ do
                             break;
                         //Agregar usuario
                         case 1:
-                            equipos.Add(Equipo.Agregar(equipos));
+                            WriteLine("Agregar nuevo equipo");
+                            WriteLine();
+                            WriteLine("Ingresa el modelo:");
+                            string? modelo = ReadLine();
+                            WriteLine("Ingresa la descripcion:");
+                            string? desc = ReadLine();
+                            WriteLine("Ingresa el ano de fabricacion:");
+                            ushort year = Convert.ToUInt16(ReadLine());
+                            WriteLine("Ingresa la marca:");
+                            string? marca = ReadLine();
+                            WriteLine("Ingresa si es Digital o Analogico:");
+                            string? cat = ReadLine();
+                            WriteLine("Ingresa su precio inicial:");
+                            decimal inicial = Convert.ToDecimal(ReadLine());
+                            WriteLine("Ingresa su precio actual:");
+                            decimal actual = Convert.ToDecimal(ReadLine());
+
+                            equipos.Add(Equipo.Agregar(equipos, modelo, desc, year, marca, cat, inicial, actual));
                             SerializeEquipos(equipos);
                             SerializeCat(equipos);
                             break;
                         //Modificar
                         case 2:
-                            equipos = Equipo.Modificar(equipos);
-                            SerializeEquipos(equipos);
-                            SerializeCat(equipos);
+                            WriteLine("Modificar equipo");
+                            WriteLine();
+                            WriteLine("Ingresa el ID del equipo a modificar:");
+                            int id = Convert.ToInt32(ReadLine());
+
+                            foreach(Equipo equipo in equipos)
+                            {
+                                if(equipo.ID == id)
+                                {
+                                    string? m = ReadLine();
+                                    WriteLine("Ingresa la descripcion:");
+                                    string? d = ReadLine();
+                                    WriteLine("Ingresa el ano de fabricacion:");
+                                    ushort y = Convert.ToUInt16(ReadLine());
+                                    WriteLine("Ingresa la marca:");
+                                    string? ma = ReadLine();
+                                    WriteLine("Ingresa si es Digital o Analogico:");
+                                    string? c = ReadLine();
+                                    WriteLine("Ingresa su precio inicial:");
+                                    decimal i = Convert.ToDecimal(ReadLine());
+                                    WriteLine("Ingresa su precio actual:");
+                                    decimal a = Convert.ToDecimal(ReadLine());
+
+                                    equipos = Equipo.Modificar(equipos, id, m, d, y, ma, c, i, a);
+                                    SerializeEquipos(equipos);
+                                    SerializeCat(equipos);
+                                }
+                            }
                             break;
                         //Borrar
                         case 3:
-                            equipos.Remove(Equipo.Eliminar(equipos));
+                            WriteLine("Eliminar equipo");
+                            WriteLine();
+                            WriteLine("Ingresa la ID del equipo a eliminar:");
+                            int identifier = Convert.ToInt32(ReadLine());
+
+                            equipos.Remove(Equipo.Eliminar(equipos, identifier));
                             SerializeEquipos(equipos);
                             SerializeCat(equipos);
                             break;
