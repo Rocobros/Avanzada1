@@ -34,3 +34,4 @@ C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Menu\obj\D
 C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Menu\obj\Debug\net7.0\Menu.pdb
 C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Menu\obj\Debug\net7.0\Menu.genruntimeconfig.cache
 C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Menu\obj\Debug\net7.0\ref\Menu.dll
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Menu\bin\Debug\net7.0\Newtonsoft.Json.dll

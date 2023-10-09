@@ -1,2 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfEquipo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+<ArrayOfEquipo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Equipo ID="1">
+    <Model>A34</Model>
+    <Description>Fuente de poder variable</Description>
+    <Year>2000</Year>
+    <Brand>Lenovo</Brand>
+    <Category>Analogico</Category>
+    <InitalPrice>1000</InitalPrice>
+    <CurrentPrice>899.99</CurrentPrice>
+  </Equipo>
+  <Equipo ID="3">
+    <Model>2</Model>
+    <Description>Algo</Description>
+    <Year>1999</Year>
+    <Brand>samsug</Brand>
+    <Category>analogico</Category>
+    <InitalPrice>100</InitalPrice>
+    <CurrentPrice>100</CurrentPrice>
+  </Equipo>
+</ArrayOfEquipo>

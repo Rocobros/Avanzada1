@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ArrayOfEquipo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+<ArrayOfEquipo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Equipo ID="2">
+    <Model>B34</Model>
+    <Description>Laptop</Description>
+    <Year>2017</Year>
+    <Brand>Lenovo</Brand>
+    <Category>Digital</Category>
+    <InitalPrice>19000</InitalPrice>
+    <CurrentPrice>17500</CurrentPrice>
+  </Equipo>
+</ArrayOfEquipo>

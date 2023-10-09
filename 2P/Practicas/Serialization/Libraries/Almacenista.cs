@@ -64,4 +64,24 @@ public class Almacenista
         Almacenista nuevo = new(maxId+1, first, last, contra, year);
         return nuevo;
     }
+
+    public static List<Almacenista> CambiarContra(List<Almacenista> lista)
+    {
+        WriteLine("Cambiar contrasena:");
+        WriteLine();
+        WriteLine("Ingresa el ID del almacenista:");
+        int id = Convert.ToInt32(ReadLine());
+
+        foreach (Almacenista almacenista in lista)
+        {
+            if(almacenista.ID == id)
+            {
+                WriteLine();
+                WriteLine("Ingresa la nueva contrasena:");
+                string? nueva = ReadLine();
+                almacenista.Password = nueva;
+            }
+        }
+        return lista;
+    }
 }

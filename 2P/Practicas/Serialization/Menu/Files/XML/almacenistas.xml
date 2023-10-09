@@ -6,7 +6,7 @@
     <Admin>true</Admin>
   </Almacenista>
   <Almacenista ID="2" FName="Rodrigo" LName="Romero">
-    <Password>1234</Password>
+    <Password>Roco</Password>
     <YearOfBirth>2005</YearOfBirth>
     <Admin>false</Admin>
   </Almacenista>
@@ -18,6 +18,11 @@
   <Almacenista ID="4" FName="Diego" LName="Corvera">
     <Password>1234</Password>
     <YearOfBirth>2003</YearOfBirth>
+    <Admin>false</Admin>
+  </Almacenista>
+  <Almacenista ID="5" FName="Nuevo" LName="Usuario">
+    <Password>12345</Password>
+    <YearOfBirth>2001</YearOfBirth>
     <Admin>false</Admin>
   </Almacenista>
 </ArrayOfAlmacenista>

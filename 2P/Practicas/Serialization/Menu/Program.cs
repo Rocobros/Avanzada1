@@ -11,10 +11,6 @@ List<Almacenista> almacenistas = new();
 equipos = DeserializeEquipos(equipos);
 almacenistas = DeserializeAlmacenistas(almacenistas);
 
-XmlSerializer xs = new(type: almacenistas.GetType());
-string path = Combine(GetCurrentDirectory(), "almacenistas.xml");
-
-
 int op;
 
 //First menu
@@ -78,9 +74,12 @@ do
                             break;
                         //Cambiar contra
                         case 4:
+                            almacenistas = Almacenista.CambiarContra(almacenistas);
+                            SerializeAlmacenistas(almacenistas);
                             break;
                         //Generar reporte
                         case 5:
+                            GenerateReport(equipos);
                             break;
                         //Salir
                         case 0:
@@ -89,6 +88,8 @@ do
                         //Otro
                         default:
                             WriteLine("Opcion no especificada");
+                            WriteLine("Press any key to continue...");
+                            ReadKey();
                             break;
                     }
 
@@ -98,7 +99,8 @@ do
             else
             {
                 WriteLine("Incorrect credentials");
-                op = 0;
+                WriteLine("Press any key to continue...");
+                ReadKey();
             }
 
             break;
@@ -115,8 +117,9 @@ do
             WriteLine("Saliendo...");
             break;
         default:
-            WriteLine("No especificado");
-            op = 0;
+            WriteLine("Opcion no especificada");
+            WriteLine("Press any key to continue...");
+            ReadKey();
             break;
     }
 
