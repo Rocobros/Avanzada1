@@ -1,9 +1,7 @@
 ﻿using static System.Console;
+
 using Libraries;
-using System.Xml.Serialization;
-using static System.IO.Directory;
-using static System.IO.Path;
-using static System.Environment;
+
 
 List<Equipo> equipos = new();
 List<Almacenista> almacenistas = new();
