@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
-      "PersonLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/PersonLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PersonLibrary.dll": {}
-        }
-      }
-    }
+    "net7.0": {}
   },
-  "libraries": {
-    "PersonLibrary/1.0.0": {
-      "type": "project",
-      "path": "../../Libraries/PersonLibrary/PersonLibrary.csproj",
-      "msbuildProject": "../../Libraries/PersonLibrary/PersonLibrary.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net7.0": [
-      "PersonLibrary >= 1.0.0"
-    ]
+    "net7.0": []
   },
   "packageFolders": {
     "C:\\Users\\PC\\.nuget\\packages\\": {},
@@ -33,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Desktop\\CETI\\7mo\\Avanzada\\PA17BAgo-Dic2023-main\\2P\\OOP\\PeopleApp\\PeopleApp.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\CETI\\7mo\\Avanzada\\Main\\2P\\OOP\\PeopleApp\\PeopleApp.csproj",
       "projectName": "PeopleApp",
-      "projectPath": "C:\\Users\\PC\\Desktop\\CETI\\7mo\\Avanzada\\PA17BAgo-Dic2023-main\\2P\\OOP\\PeopleApp\\PeopleApp.csproj",
+      "projectPath": "C:\\Users\\PC\\Desktop\\CETI\\7mo\\Avanzada\\Main\\2P\\OOP\\PeopleApp\\PeopleApp.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Desktop\\CETI\\7mo\\Avanzada\\PA17BAgo-Dic2023-main\\2P\\OOP\\PeopleApp\\obj\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\CETI\\7mo\\Avanzada\\Main\\2P\\OOP\\PeopleApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,11 +39,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "C:\\Users\\PC\\Desktop\\CETI\\7mo\\Avanzada\\PA17BAgo-Dic2023-main\\2P\\Libraries\\PersonLibrary\\PersonLibrary.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\CETI\\7mo\\Avanzada\\PA17BAgo-Dic2023-main\\2P\\Libraries\\PersonLibrary\\PersonLibrary.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

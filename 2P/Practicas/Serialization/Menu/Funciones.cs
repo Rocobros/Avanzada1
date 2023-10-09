@@ -6,7 +6,76 @@ using static System.IO.Path;
 using static System.Environment;
 partial class Program
 {
+    public static int MenuLogin()
+    {
+        int op;
+        try
+        {
+            WriteLine("Seleccione una opcion:");
+            WriteLine("1. Log in");
+            WriteLine("2. Agregar usuario");
+            WriteLine("0. Salir");
+            op = Convert.ToInt32(ReadLine());
+        }
+        catch (System.Exception)
+        {
+            FormatException error = new(message: "Input was not a number");
+            WriteLine(error.Message);
+            op = -1;
+        }
+        return op;
+        
+    }
 
+    public static int MenuEquipo()
+    {
+        int op;
+        try
+        {
+            WriteLine("Selecciona una opcion:");
+            WriteLine("1. Agregar equipo");
+            WriteLine("2. Modificar equipo");
+            WriteLine("3. Eliminar equipo");
+            WriteLine("4. Cambiar contrasena");
+            WriteLine("5. Generar reporte de equipos");
+            WriteLine("0. Salir");
+            op = Convert.ToInt32(ReadLine());
+        }
+        catch (System.Exception)
+        {
+            FormatException error = new(message: "Input was not a number");
+            WriteLine(error.Message);
+            op = -1;
+        }
+        return op;
+    }
+
+    public static int MenuReporte()
+    {
+        int op;
+        try
+        {
+            WriteLine("Generar reporte");
+            WriteLine();
+            WriteLine("Por que valor quieres ordenar?");
+            WriteLine("1. Id");
+            WriteLine("2. Modelo");
+            WriteLine("3. Descripcion");
+            WriteLine("4. Ano");
+            WriteLine("5. Marca");
+            WriteLine("6. Categoria");
+            WriteLine("7. Precio inicial");
+            WriteLine("8. Precio actual");
+            op = Convert.ToInt32(ReadLine());
+        }
+        catch (System.Exception)
+        {
+            FormatException error = new(message: "Input was not a number");
+            WriteLine(error.Message);
+            op = -1;
+        }
+        return op;
+    }
     public static void SerializeCat(List<Equipo> lista)
     {
         XmlSerializer xs = new(type: lista.GetType());
@@ -118,22 +187,16 @@ partial class Program
 
     public static void GenerateReport(List<Equipo> lista)
     {
-        WriteLine("Generar reporte");
-        WriteLine();
-        WriteLine("Por que valor quieres ordenar?");
-        WriteLine("1. Id");
-        WriteLine("2. Modelo");
-        WriteLine("3. Descripcion");
-        WriteLine("4. Ano");
-        WriteLine("5. Marca");
-        WriteLine("6. Categoria");
-        WriteLine("7. Precio inicial");
-        WriteLine("8. Precio actual");
-        int op = Convert.ToInt32(ReadLine());
+        int op = MenuReporte();
+        
         List<Equipo> reporte = new(lista);
 
         switch (op)
         {
+            case -1:
+                WriteLine("Press any key to continue...");
+                ReadKey();
+                break;
             case 1:
                 reporte.Sort(Equipo.CompareByID);
                 break;

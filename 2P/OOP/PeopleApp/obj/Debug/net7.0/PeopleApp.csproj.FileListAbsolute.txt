@@ -16,3 +16,10 @@
 /Users/angelbrambila/Documents/Ceti/Ago-Dic 2023/PA17BAgo-Dic2023/2P/OOP/PeopleApp/obj/Debug/net7.0/PeopleApp.pdb
 /Users/angelbrambila/Documents/Ceti/Ago-Dic 2023/PA17BAgo-Dic2023/2P/OOP/PeopleApp/obj/Debug/net7.0/PeopleApp.genruntimeconfig.cache
 /Users/angelbrambila/Documents/Ceti/Ago-Dic 2023/PA17BAgo-Dic2023/2P/OOP/PeopleApp/obj/Debug/net7.0/ref/PeopleApp.dll
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\OOP\PeopleApp\obj\Debug\net7.0\PeopleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\OOP\PeopleApp\obj\Debug\net7.0\PeopleApp.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\OOP\PeopleApp\obj\Debug\net7.0\PeopleApp.AssemblyInfo.cs
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\OOP\PeopleApp\obj\Debug\net7.0\PeopleApp.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\OOP\PeopleApp\obj\Debug\net7.0\PeopleApp.dll
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\OOP\PeopleApp\obj\Debug\net7.0\refint\PeopleApp.dll
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\OOP\PeopleApp\obj\Debug\net7.0\PeopleApp.pdb

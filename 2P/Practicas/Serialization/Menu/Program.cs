@@ -17,16 +17,15 @@ int op;
 do
 {
     Clear();
-    WriteLine("Seleccione una opcion:");
-    WriteLine("1. Log in");
-    WriteLine("2. Agregar usuario");
-    WriteLine("0. Salir");
-    op = Convert.ToInt32(ReadLine());
+    op = MenuLogin();
 
     switch (op)
     {
-        
         //Login to existing user
+        case -1:
+            WriteLine("Press any key to continue...");
+            ReadKey();
+            break;
         case 1:
             Clear();
             WriteLine("Ingresa el ID:");
@@ -42,18 +41,13 @@ do
                 do
                 {
                     Clear();
-                    WriteLine("Selecciona una opcion:");
-                    WriteLine("1. Agregar equipo");
-                    WriteLine("2. Modificar equipo");
-                    WriteLine("3. Eliminar equipo");
-                    WriteLine("4. Cambiar contrasena");
-                    WriteLine("5. Generar reporte de equipos");
-                    WriteLine("0. Salir");
-                    op = Convert.ToInt32(ReadLine());
-
-                    Clear();
+                    op = MenuEquipo();
                     switch (op)
                     {
+                        case -1:
+                            WriteLine("Press any key to continue...");
+                            ReadKey();
+                            break;
                         //Agregar usuario
                         case 1:
                             equipos.Add(Equipo.Agregar(equipos));
