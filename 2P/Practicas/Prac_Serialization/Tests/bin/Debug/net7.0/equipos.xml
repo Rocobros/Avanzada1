@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEquipo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Equipo ID="-1">
+    <Model>example</Model>
+    <Description>example</Description>
+    <Year>0</Year>
+    <Brand>example</Brand>
+    <Category>example</Category>
+    <InitalPrice>0</InitalPrice>
+    <CurrentPrice>0</CurrentPrice>
+  </Equipo>
+</ArrayOfEquipo>

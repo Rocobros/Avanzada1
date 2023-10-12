@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfEquipo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Equipo ID="2">
+    <Model>b13</Model>
+    <Description>example</Description>
+    <Year>2011</Year>
+    <Brand>HP</Brand>
+    <Category>Analogico</Category>
+    <InitalPrice>150</InitalPrice>
+    <CurrentPrice>100</CurrentPrice>
+  </Equipo>
+  <Equipo ID="1">
+    <Model>A12</Model>
+    <Description>example</Description>
+    <Year>2020</Year>
+    <Brand>Steren</Brand>
+    <Category>Digital</Category>
+    <InitalPrice>100</InitalPrice>
+    <CurrentPrice>150</CurrentPrice>
+  </Equipo>
+</ArrayOfEquipo>

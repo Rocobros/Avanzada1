@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Desktop\\CETI\\7mo\\Avanzada\\PA17BAgo-Dic2023-main\\2P\\WorkingWithFileSystems\\WorkingWithFileSystems.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\CETI\\7mo Semestre\\Avanzada\\Main\\2P\\WorkingWithFileSystems\\WorkingWithFileSystems.csproj",
       "projectName": "WorkingWithFileSystems",
-      "projectPath": "C:\\Users\\PC\\Desktop\\CETI\\7mo\\Avanzada\\PA17BAgo-Dic2023-main\\2P\\WorkingWithFileSystems\\WorkingWithFileSystems.csproj",
+      "projectPath": "C:\\Users\\PC\\Desktop\\CETI\\7mo Semestre\\Avanzada\\Main\\2P\\WorkingWithFileSystems\\WorkingWithFileSystems.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Desktop\\CETI\\7mo\\Avanzada\\PA17BAgo-Dic2023-main\\2P\\WorkingWithFileSystems\\obj\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\CETI\\7mo Semestre\\Avanzada\\Main\\2P\\WorkingWithFileSystems\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

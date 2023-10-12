@@ -1,0 +1,59 @@
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\PA17BAgo-Dic2023-main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\Libraries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\PA17BAgo-Dic2023-main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\Libraries.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\PA17BAgo-Dic2023-main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\Libraries.AssemblyInfo.cs
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\PA17BAgo-Dic2023-main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\Libraries.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\PA17BAgo-Dic2023-main\2P\Practicas\Serialization\Libraries\bin\Debug\net7.0\Libraries.deps.json
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\PA17BAgo-Dic2023-main\2P\Practicas\Serialization\Libraries\bin\Debug\net7.0\Libraries.dll
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\PA17BAgo-Dic2023-main\2P\Practicas\Serialization\Libraries\bin\Debug\net7.0\Libraries.pdb
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\PA17BAgo-Dic2023-main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\Libraries.dll
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\PA17BAgo-Dic2023-main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\refint\Libraries.dll
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\PA17BAgo-Dic2023-main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\Libraries.pdb
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\PA17BAgo-Dic2023-main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\ref\Libraries.dll
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Libraries\bin\Debug\net7.0\Libraries.deps.json
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Libraries\bin\Debug\net7.0\Libraries.dll
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Libraries\bin\Debug\net7.0\Libraries.pdb
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\Libraries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\Libraries.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\Libraries.AssemblyInfo.cs
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\Libraries.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\Libraries.dll
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\refint\Libraries.dll
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\Libraries.pdb
+C:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\ref\Libraries.dll
+c:\Users\PC\Desktop\CETI\7mo\Avanzada\Main\2P\Practicas\Serialization\Libraries\obj\Debug\net7.0\Libraries.csproj.AssemblyReference.cache
+c:\Users\PC\Desktop\CETI\7mo\Avanzada\Copia\Serialization\Libraries\bin\Debug\net7.0\Libraries.deps.json
+c:\Users\PC\Desktop\CETI\7mo\Avanzada\Copia\Serialization\Libraries\bin\Debug\net7.0\Libraries.dll
+c:\Users\PC\Desktop\CETI\7mo\Avanzada\Copia\Serialization\Libraries\bin\Debug\net7.0\Libraries.pdb
+c:\Users\PC\Desktop\CETI\7mo\Avanzada\Copia\Serialization\Libraries\obj\Debug\net7.0\Libraries.csproj.AssemblyReference.cache
+c:\Users\PC\Desktop\CETI\7mo\Avanzada\Copia\Serialization\Libraries\obj\Debug\net7.0\Libraries.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\PC\Desktop\CETI\7mo\Avanzada\Copia\Serialization\Libraries\obj\Debug\net7.0\Libraries.AssemblyInfoInputs.cache
+c:\Users\PC\Desktop\CETI\7mo\Avanzada\Copia\Serialization\Libraries\obj\Debug\net7.0\Libraries.AssemblyInfo.cs
+c:\Users\PC\Desktop\CETI\7mo\Avanzada\Copia\Serialization\Libraries\obj\Debug\net7.0\Libraries.csproj.CoreCompileInputs.cache
+c:\Users\PC\Desktop\CETI\7mo\Avanzada\Copia\Serialization\Libraries\obj\Debug\net7.0\Libraries.dll
+c:\Users\PC\Desktop\CETI\7mo\Avanzada\Copia\Serialization\Libraries\obj\Debug\net7.0\refint\Libraries.dll
+c:\Users\PC\Desktop\CETI\7mo\Avanzada\Copia\Serialization\Libraries\obj\Debug\net7.0\Libraries.pdb
+c:\Users\PC\Desktop\CETI\7mo\Avanzada\Copia\Serialization\Libraries\obj\Debug\net7.0\ref\Libraries.dll
+C:\Users\52331\Desktop\Rodrigo\Serializacion\Libraries\bin\Debug\net7.0\Libraries.deps.json
+C:\Users\52331\Desktop\Rodrigo\Serializacion\Libraries\bin\Debug\net7.0\Libraries.dll
+C:\Users\52331\Desktop\Rodrigo\Serializacion\Libraries\bin\Debug\net7.0\Libraries.pdb
+C:\Users\52331\Desktop\Rodrigo\Serializacion\Libraries\obj\Debug\net7.0\Libraries.csproj.AssemblyReference.cache
+C:\Users\52331\Desktop\Rodrigo\Serializacion\Libraries\obj\Debug\net7.0\Libraries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\52331\Desktop\Rodrigo\Serializacion\Libraries\obj\Debug\net7.0\Libraries.AssemblyInfoInputs.cache
+C:\Users\52331\Desktop\Rodrigo\Serializacion\Libraries\obj\Debug\net7.0\Libraries.AssemblyInfo.cs
+C:\Users\52331\Desktop\Rodrigo\Serializacion\Libraries\obj\Debug\net7.0\Libraries.csproj.CoreCompileInputs.cache
+C:\Users\52331\Desktop\Rodrigo\Serializacion\Libraries\obj\Debug\net7.0\Libraries.dll
+C:\Users\52331\Desktop\Rodrigo\Serializacion\Libraries\obj\Debug\net7.0\refint\Libraries.dll
+C:\Users\52331\Desktop\Rodrigo\Serializacion\Libraries\obj\Debug\net7.0\Libraries.pdb
+C:\Users\52331\Desktop\Rodrigo\Serializacion\Libraries\obj\Debug\net7.0\ref\Libraries.dll
+C:\Users\PC\Desktop\CETI\7mo Semestre\Avanzada\Main\2P\Practicas\Prac_Serialization\Libraries\bin\Debug\net7.0\Libraries.deps.json
+C:\Users\PC\Desktop\CETI\7mo Semestre\Avanzada\Main\2P\Practicas\Prac_Serialization\Libraries\bin\Debug\net7.0\Libraries.dll
+C:\Users\PC\Desktop\CETI\7mo Semestre\Avanzada\Main\2P\Practicas\Prac_Serialization\Libraries\bin\Debug\net7.0\Libraries.pdb
+C:\Users\PC\Desktop\CETI\7mo Semestre\Avanzada\Main\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\Libraries.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\CETI\7mo Semestre\Avanzada\Main\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\Libraries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\CETI\7mo Semestre\Avanzada\Main\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\Libraries.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\CETI\7mo Semestre\Avanzada\Main\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\Libraries.AssemblyInfo.cs
+C:\Users\PC\Desktop\CETI\7mo Semestre\Avanzada\Main\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\Libraries.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\CETI\7mo Semestre\Avanzada\Main\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\Libraries.dll
+C:\Users\PC\Desktop\CETI\7mo Semestre\Avanzada\Main\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\refint\Libraries.dll
+C:\Users\PC\Desktop\CETI\7mo Semestre\Avanzada\Main\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\Libraries.pdb
+C:\Users\PC\Desktop\CETI\7mo Semestre\Avanzada\Main\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\ref\Libraries.dll

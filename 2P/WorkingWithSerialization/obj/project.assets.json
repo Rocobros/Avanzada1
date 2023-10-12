@@ -14,16 +14,6 @@
             "related": ".xml"
           }
         }
-      },
-      "PersonLibrary/1.0.0": {
-        "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
-        "compile": {
-          "bin/placeholder/PersonLibrary.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/PersonLibrary.dll": {}
-        }
       }
     }
   },
@@ -57,17 +47,11 @@
         "newtonsoft.json.nuspec",
         "packageIcon.png"
       ]
-    },
-    "PersonLibrary/1.0.0": {
-      "type": "project",
-      "path": "../Libraries/PersonLibrary/PersonLibrary.csproj",
-      "msbuildProject": "../Libraries/PersonLibrary/PersonLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-      "Newtonsoft.Json >= 13.0.3",
-      "PersonLibrary >= 1.0.0"
+      "Newtonsoft.Json >= 13.0.3"
     ]
   },
   "packageFolders": {
@@ -77,11 +61,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Desktop\\CETI\\7mo\\Avanzada\\PA17BAgo-Dic2023-main\\2P\\WorkingWithSerialization\\WorkingWithSerialization.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\CETI\\7mo Semestre\\Avanzada\\Main\\2P\\WorkingWithSerialization\\WorkingWithSerialization.csproj",
       "projectName": "WorkingWithSerialization",
-      "projectPath": "C:\\Users\\PC\\Desktop\\CETI\\7mo\\Avanzada\\PA17BAgo-Dic2023-main\\2P\\WorkingWithSerialization\\WorkingWithSerialization.csproj",
+      "projectPath": "C:\\Users\\PC\\Desktop\\CETI\\7mo Semestre\\Avanzada\\Main\\2P\\WorkingWithSerialization\\WorkingWithSerialization.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Desktop\\CETI\\7mo\\Avanzada\\PA17BAgo-Dic2023-main\\2P\\WorkingWithSerialization\\obj\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\CETI\\7mo Semestre\\Avanzada\\Main\\2P\\WorkingWithSerialization\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -102,11 +86,7 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {
-            "C:\\Users\\PC\\Desktop\\CETI\\7mo\\Avanzada\\PA17BAgo-Dic2023-main\\2P\\Libraries\\PersonLibrary\\PersonLibrary.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\CETI\\7mo\\Avanzada\\PA17BAgo-Dic2023-main\\2P\\Libraries\\PersonLibrary\\PersonLibrary.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

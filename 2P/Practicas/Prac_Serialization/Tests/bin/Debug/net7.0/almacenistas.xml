@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfAlmacenista xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Almacenista ID="-1" FName="iFF4Oyf11vc=" LName="r8/B+012KDs=">
+    <Password>AVtpaPGdfRk=</Password>
+    <YearOfBirth>1000</YearOfBirth>
+    <Admin>false</Admin>
+  </Almacenista>
+</ArrayOfAlmacenista>
