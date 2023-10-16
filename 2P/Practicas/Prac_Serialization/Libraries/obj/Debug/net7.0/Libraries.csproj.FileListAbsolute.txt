@@ -57,3 +57,15 @@ C:\Users\PC\Desktop\CETI\7mo Semestre\Avanzada\Main\2P\Practicas\Prac_Serializat
 C:\Users\PC\Desktop\CETI\7mo Semestre\Avanzada\Main\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\refint\Libraries.dll
 C:\Users\PC\Desktop\CETI\7mo Semestre\Avanzada\Main\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\Libraries.pdb
 C:\Users\PC\Desktop\CETI\7mo Semestre\Avanzada\Main\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\ref\Libraries.dll
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Serialization\Libraries\bin\Debug\net7.0\Libraries.deps.json
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Serialization\Libraries\bin\Debug\net7.0\Libraries.dll
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Serialization\Libraries\bin\Debug\net7.0\Libraries.pdb
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\Libraries.csproj.AssemblyReference.cache
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\Libraries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\Libraries.AssemblyInfoInputs.cache
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\Libraries.AssemblyInfo.cs
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\Libraries.csproj.CoreCompileInputs.cache
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\Libraries.dll
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\refint\Libraries.dll
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\Libraries.pdb
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Serialization\Libraries\obj\Debug\net7.0\ref\Libraries.dll

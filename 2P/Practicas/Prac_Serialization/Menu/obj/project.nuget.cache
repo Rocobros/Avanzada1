@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MMPG2suGAoaIHSfKoKWX61bmDqD8yQ7BRubhnORmCIRyKpzS4Bcw4Nz2+fqnJgPJlYG7OFgRKjcGXzBOTlg87w==",
+  "dgSpecHash": "X0bACxVLdlI45Vq0eshb32RI1lFHS/vAKUzyPpArEHvF8k+F1hwO+o5c5yhc7zubkyAVCk4q0uUl0OwdPwankg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Desktop\\CETI\\7mo Semestre\\Avanzada\\Main\\2P\\Practicas\\Prac_Serialization\\Menu\\Menu.csproj",
+  "projectFilePath": "C:\\Users\\rocob\\Documents\\CETI\\7mo\\Avanzada1\\Avanzada1\\2P\\Practicas\\Prac_Serialization\\Menu\\Menu.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\PC\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\rocob\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

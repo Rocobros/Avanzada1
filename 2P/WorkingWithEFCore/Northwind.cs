@@ -9,12 +9,13 @@ public class Northwind : DbContext{
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
         string path = Path.Combine(Environment.CurrentDirectory, "Northwind.db");
-        string connetion = $"Filename: {path}";
+        string connetion = $"Filename={path}";
         ConsoleColor backgroundColor = ForegroundColor;
         ForegroundColor = ConsoleColor.DarkYellow;
-        WriteLine($"Connection: {connetion}");
+        WriteLine($"Connection {connetion}");
         ForegroundColor = backgroundColor;
         optionsBuilder.UseSqlite(connetion);
+        //optionsBuilder.LogTo(WriteLine).EnableSensitiveDataLogging();
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)

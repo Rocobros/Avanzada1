@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "PnhAGf0tU2psLN5W8VX899o8JxYdbH6mGg1g55wQMzg6xpJsRWvOZujcvZ9/v1H+lXJkm06C2jKcChEv8zzYtA==",
+  "dgSpecHash": "VX9azN4dUX2ViZrtDZMjfWZ+oODwG2Z2LDPXaTqdTduNrRgSM7yHSaKuoa/Zww6nbaHDleV3GsEzfixVu+jVnQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Desktop\\CETI\\7mo Semestre\\Avanzada\\Main\\2P\\Practicas\\Prac_Serialization\\Libraries\\Libraries.csproj",
+  "projectFilePath": "C:\\Users\\rocob\\Documents\\CETI\\7mo\\Avanzada1\\Avanzada1\\2P\\Practicas\\Prac_Serialization\\Libraries\\Libraries.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\PC\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\rocob\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
