@@ -1,0 +1,11 @@
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1Unitest\Librerias\bin\Debug\net7.0\Librerias.deps.json
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1Unitest\Librerias\bin\Debug\net7.0\Librerias.dll
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1Unitest\Librerias\bin\Debug\net7.0\Librerias.pdb
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1Unitest\Librerias\obj\Debug\net7.0\Librerias.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1Unitest\Librerias\obj\Debug\net7.0\Librerias.AssemblyInfoInputs.cache
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1Unitest\Librerias\obj\Debug\net7.0\Librerias.AssemblyInfo.cs
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1Unitest\Librerias\obj\Debug\net7.0\Librerias.csproj.CoreCompileInputs.cache
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1Unitest\Librerias\obj\Debug\net7.0\Librerias.dll
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1Unitest\Librerias\obj\Debug\net7.0\refint\Librerias.dll
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1Unitest\Librerias\obj\Debug\net7.0\Librerias.pdb
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1Unitest\Librerias\obj\Debug\net7.0\ref\Librerias.dll

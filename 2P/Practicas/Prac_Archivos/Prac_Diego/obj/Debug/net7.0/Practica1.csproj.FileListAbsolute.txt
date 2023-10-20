@@ -1,0 +1,14 @@
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1\bin\Debug\net7.0\Practica1.exe
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1\bin\Debug\net7.0\Practica1.deps.json
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1\bin\Debug\net7.0\Practica1.runtimeconfig.json
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1\bin\Debug\net7.0\Practica1.dll
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1\bin\Debug\net7.0\Practica1.pdb
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1\obj\Debug\net7.0\Practica1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1\obj\Debug\net7.0\Practica1.AssemblyInfoInputs.cache
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1\obj\Debug\net7.0\Practica1.AssemblyInfo.cs
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1\obj\Debug\net7.0\Practica1.csproj.CoreCompileInputs.cache
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1\obj\Debug\net7.0\Practica1.dll
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1\obj\Debug\net7.0\refint\Practica1.dll
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1\obj\Debug\net7.0\Practica1.pdb
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1\obj\Debug\net7.0\Practica1.genruntimeconfig.cache
+C:\Users\52331\Desktop\PrograAvanzada\2P\Practica1\obj\Debug\net7.0\ref\Practica1.dll
