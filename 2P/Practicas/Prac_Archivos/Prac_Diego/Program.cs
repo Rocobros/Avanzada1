@@ -6,13 +6,14 @@ uso = Leer();
 //Crear un File con un Writer para escribir dentro del archivo
 StreamWriter textWriter = File.CreateText("Copy.txt");
 
+
 foreach(var linea in uso)
 {
 
     double valor1;
     double valor2;
     
-    string respuesta;
+    string respuesta = "res= ";
 
     if(linea.Count == 3)
     {
@@ -141,7 +142,6 @@ foreach(var linea in uso)
 
 
     }
-
 }
 
 //Cerrar el archivo

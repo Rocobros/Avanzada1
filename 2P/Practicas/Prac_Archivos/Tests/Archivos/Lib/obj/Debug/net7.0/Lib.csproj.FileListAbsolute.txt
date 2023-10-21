@@ -1,0 +1,11 @@
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Archivos\Tests\Archivos\Lib\bin\Debug\net7.0\Lib.deps.json
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Archivos\Tests\Archivos\Lib\bin\Debug\net7.0\Lib.dll
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Archivos\Tests\Archivos\Lib\bin\Debug\net7.0\Lib.pdb
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Archivos\Tests\Archivos\Lib\obj\Debug\net7.0\Lib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Archivos\Tests\Archivos\Lib\obj\Debug\net7.0\Lib.AssemblyInfoInputs.cache
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Archivos\Tests\Archivos\Lib\obj\Debug\net7.0\Lib.AssemblyInfo.cs
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Archivos\Tests\Archivos\Lib\obj\Debug\net7.0\Lib.csproj.CoreCompileInputs.cache
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Archivos\Tests\Archivos\Lib\obj\Debug\net7.0\Lib.dll
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Archivos\Tests\Archivos\Lib\obj\Debug\net7.0\refint\Lib.dll
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Archivos\Tests\Archivos\Lib\obj\Debug\net7.0\Lib.pdb
+C:\Users\rocob\Documents\CETI\7mo\Avanzada1\Avanzada1\2P\Practicas\Prac_Archivos\Tests\Archivos\Lib\obj\Debug\net7.0\ref\Lib.dll

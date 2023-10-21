@@ -49,8 +49,6 @@ partial class Program
 
         }      
 
-        List<List<string>> real = new List<List<string>>();
-
         return respuesta;
 
     }
