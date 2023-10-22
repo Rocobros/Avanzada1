@@ -11,7 +11,7 @@ foreach (var linea in input)
 
     string res = "res= ";
 
-    //Si es exactamente una operacion
+    //Si es exactamente una nuevo
     if(linea.Count == 3)
     {
         if(linea[0].Contains('/') || linea[2].Contains('/'))
@@ -55,23 +55,23 @@ foreach (var linea in input)
     }
     else if(linea.Count > 3)
     {
-        List<string> operacion = new();
+        List<string> nuevo = new();
 
         for(int i = linea.Count-1; i > linea.Count-4; i--)
         {
-            operacion.Add(linea[i]);
+            nuevo.Add(linea[i]);
         }
 
-        if (operacion[0].Contains('/') || operacion[2].Contains('/'))
+        if (nuevo[0].Contains('/') || nuevo[2].Contains('/'))
         {
-            res = CalcularFraccion(operacion[0], operacion[2], operacion[1]);
+            res = CalcularFraccion(nuevo[0], nuevo[2], nuevo[1]);
         }
         else
         {
-            operando1 = double.Parse(operacion[0]);
-            operando2 = double.Parse(operacion[2]);
+            operando1 = double.Parse(nuevo[0]);
+            operando2 = double.Parse(nuevo[2]);
 
-            switch (operacion[1])
+            switch (nuevo[1])
             {
                 case "+":
                     res += Convert.ToString(Suma(operando1, operando2));
@@ -91,11 +91,11 @@ foreach (var linea in input)
 
         }
 
-        textWriter.WriteLine(linea[0]);
+        textWriter.WriteLine(nuevo[0]);
         textWriter.WriteLine();
-        textWriter.WriteLine(linea[1]);
+        textWriter.WriteLine(nuevo[1]);
         textWriter.WriteLine();
-        textWriter.WriteLine(linea[2]);
+        textWriter.WriteLine(nuevo[2]);
         textWriter.WriteLine();
         textWriter.WriteLine(res);
         textWriter.WriteLine();

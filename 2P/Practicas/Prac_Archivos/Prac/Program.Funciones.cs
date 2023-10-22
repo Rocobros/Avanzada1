@@ -2,35 +2,51 @@ partial class Program
 {
     static List<List<string>> LeerArchivo()
     {
-        List<string> archivo = new();
+        //Lista con el valor real
+        List<string> listas = new();
 
-        string[] aux;
+        string[] lista;
 
-        aux = File.ReadAllLines("in.txt");
+        //Introducir todas las lineas en un arreglo de strings
+        lista = File.ReadAllLines("in.txt");
 
-        foreach (var linea in aux)
+        //Añadir las lineas strings a un List de strings quitando la basura
+        foreach (var linea in lista)
         {
+
             if (double.TryParse(linea, out _) || linea == "res=" || linea == "+" || linea == "-" || linea == "/" || linea == "*" || linea.Contains('/'))
-            archivo.Add(linea);
+            {
+
+                listas.Add(linea);
+
+            }
+
         }
 
-        List<List<string>> res = new();
-        List<string> operacion = new();
+        //Creacion de una lista dentro de listas y una lista para meter la informacion
+        List<List<string>> respuesta = new();
 
-        foreach (var linea in archivo)
+        List<string> numeros = new();
+
+        //Hacer cada operacion una Lista y meterlo en un contenedor de listas
+        foreach (var str in listas)
         {
-            if(linea.Contains("res="))
+
+            if (str.Contains("res="))
             {
-                var op = new List<string>(operacion);
-                res.Add(op);
-                operacion.Clear();
+                var expr = new List<string>(numeros);
+                respuesta.Add(expr);
+                numeros.Clear();
             }
             else
             {
-                operacion.Add(linea);
-            }     
+                numeros.Add(str);
+            }
+
         }
-        return res;
+
+        return respuesta;
+
     }
 
     static string CalcularFraccion(string num, string den, string op)
